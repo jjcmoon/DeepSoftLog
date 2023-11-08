@@ -11,7 +11,7 @@ ext = [
         ["deepsoftlog/algebraic_prover/terms/probability_annotation.pyx"],
     ),
     Extension(
-        "deepsoftlog.algebraic_prover.proof_queue", ["deepsoftlog/algebraic_prover/proving/proof_queue.pyx"]
+        "deepsoftlog.algebraic_prover.proving.proof_queue", ["deepsoftlog/algebraic_prover/proving/proof_queue.pyx"]
     ),
 ]
 

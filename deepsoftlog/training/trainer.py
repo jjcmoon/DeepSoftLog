@@ -6,7 +6,6 @@ from typing import Iterable, Callable
 
 import numpy as np
 import torch
-from pyinstrument import Profiler
 from torch.optim import Optimizer
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from tqdm import tqdm
@@ -89,6 +88,8 @@ class Trainer:
                  join=True)
 
     def train_profile(self, *args, **kwargs):
+        from pyinstrument import Profiler
+
         profiler = Profiler()
         profiler.start()
         self.train(*args, **kwargs)

@@ -1,18 +1,20 @@
 # DeepSoftLog
 
-DeepSoftLog is a neuro-symbolic framework which adds learnable embeddings to probabilistic logic programming.
+DeepSoftLog is a neuro-symbolic framework which adds embeddings and neural networks to probabilistic logic programming using soft-unification.
 For more information, see our paper: 
 
 [Jaron Maene and Luc De Raedt. "Soft-Unification in Deep Probabilistic Logic." Advances in neural information processing systems 37 (2023).](https://openreview.net/pdf?id=s86M8naPSv)
 
 ## Install
 
-DeepSoftLog requires Python 3.11 or higher. To install run:
+DeepSoftLog requires Python 3.10 or higher. To install run:
 ```shell
+pip install cython==0.29.36
 python setup.py build_ext --inplace
+pip install -r requirements.txt
 ```
 
-Note that DeepSoftLog has only been tested on MacOS and Linux. The exact inference requires [PySDD](https://github.com/wannesm/PySDD), which does not support Windows.
+DeepSoftLog has only been tested on MacOS and Linux. The exact inference requires [PySDD](https://github.com/wannesm/PySDD), which does not support Windows.
 
 ## Experiments
 

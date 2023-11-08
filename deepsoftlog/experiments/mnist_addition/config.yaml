@@ -1,0 +1,28 @@
+project: mnist_addition
+name: 1 digit
+program: "deepsoftlog/experiments/mnist_addition/programs/addition_embeddings.pl"
+semantics: sdd2
+
+# Run settings
+nb_workers: 1
+device: cpu
+seed: 1337
+verbose: true
+digits: 1
+data_subset: null
+add_symb: true
+max_proofs: null
+
+# Optimization settings
+optimizer: AdamW
+functor_learning_rate: 0.0003
+embedding_learning_rate: 0
+batch_size: 4
+nb_epochs: 3
+weight_decay: 1.0e-05
+grad_clip: null
+
+# embeddings
+embedding_dimensions: 10
+embedding_initialization: sphere
+embedding_metric: angle

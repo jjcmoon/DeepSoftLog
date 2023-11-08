@@ -1,0 +1,27 @@
+project: fsm
+name: star language
+program: deepsoftlog/experiments/fsm/programs/soft_fsm.pl
+seed: 1337
+verbose: true
+device: cpu
+
+semantics: sdd2
+pretrain: true
+
+# optimization
+optimizer: AdamW
+embedding_learning_rate: 0.1
+functor_learning_rate: 0.0001
+functor_weight_decay: 1.0e-5
+nb_epochs: 25
+batch_size: 4
+grad_clip: null
+max_proofs: null
+max_depth: null
+max_branching: null
+
+
+# embeddings
+embedding_dimensions: 3
+embedding_initialization: sphere
+embedding_metric: angle

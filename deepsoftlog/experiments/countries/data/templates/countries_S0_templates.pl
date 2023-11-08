@@ -1,0 +1,1 @@
+countries(~rr1, X, Y) :- countries(~rr1, X, Z), countries(~rr1, Z, Y).

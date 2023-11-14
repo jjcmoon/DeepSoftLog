@@ -1,9 +1,9 @@
 # DeepSoftLog
 
-DeepSoftLog is a neuro-symbolic framework which adds embeddings and neural networks to probabilistic logic programming using soft-unification.
-For more information, see our paper: 
+[[paper](https://openreview.net/pdf?id=s86M8naPSv)] [[video](https://youtu.be/3yQbcer-suA)] [[slides](https://neurips.cc/media/neurips-2023/Slides/70284.pdf)]
 
-[Jaron Maene and Luc De Raedt. "Soft-Unification in Deep Probabilistic Logic." Advances in neural information processing systems 37 (2023).](https://openreview.net/pdf?id=s86M8naPSv)
+DeepSoftLog is a neuro-symbolic framework which adds embeddings and neural networks to probabilistic logic programming using soft-unification.
+
 
 ## Install
 
@@ -35,12 +35,10 @@ By default, training metrics and results are logged to wandb.
 If you use DeepSoftLog in your work, consider citing our paper:
 
 ```
-@inproceedings{
-maene2023softunification,
-title={Soft-Unification in Deep Probabilistic Logic},
-author={Jaron Maene and Luc De Raedt},
-booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-year={2023},
-url={https://openreview.net/forum?id=s86M8naPSv}
+@inproceedings{maene2023softunification,
+  title={Soft-Unification in Deep Probabilistic Logic},
+  author={Maene, Jaron and De Raedt, Luc},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
 }
 ```

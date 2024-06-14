@@ -7,7 +7,7 @@ DeepSoftLog is a neuro-symbolic framework which adds embeddings and neural netwo
 
 ## Install
 
-DeepSoftLog requires Python 3.10 or higher. To install run:
+DeepSoftLog was developed for Python 3.10.11. To install run:
 ```shell
 pip install cython==0.29.36
 python setup.py build_ext --inplace

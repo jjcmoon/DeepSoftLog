@@ -36,9 +36,13 @@ If you use DeepSoftLog in your work, consider citing our paper:
 
 ```
 @inproceedings{maene2023softunification,
-  title={Soft-Unification in Deep Probabilistic Logic},
-  author={Maene, Jaron and De Raedt, Luc},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-  year={2023}
+ author = {Maene, Jaron and De Raedt, Luc},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {60804--60820},
+ publisher = {Curran Associates, Inc.},
+ title = {{S}oft-{U}nification in {D}eep {P}robabilistic {L}ogic},
+ volume = {36},
+ year = {2023}
 }
 ```
